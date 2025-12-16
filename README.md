@@ -5,4 +5,4 @@
 <br>
 <h2>It is deployed in firebase.</h2>
 <br>
-<h2>link to for the app - https://netflix-clone-4debc.web.app </h2>
+<h2>link to for the app - https://netflix-clone-plum-eta.vercel.app </h2>
