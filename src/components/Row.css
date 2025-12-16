@@ -1,0 +1,80 @@
+.row {
+    margin-left: 20px;
+    color: #fff;
+}
+
+.row_poster {
+    width: 100%;
+    object-fit: contain;
+    max-height: 140px;
+    margin-right: 10px;
+    transition: transform 450ms;
+}
+
+.row_posters {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: 20px;
+    scroll-behavior: smooth;
+}
+
+.row__container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.row__arrow {
+    position: absolute;
+    z-index: 100;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+
+.row:hover .row__arrow {
+    opacity: 1;
+}
+
+.row:hover .row__arrow:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+    transform: scale(1.1);
+}
+
+.row__arrowLeft {
+    left: 0;
+}
+
+.row__arrowRight {
+    right: 0;
+}
+
+.row__arrow svg {
+    width: 24px;
+    height: 24px;
+}
+
+.row_posters::-webkit-scrollbar {
+    display: none;
+}
+
+.row_poster:hover {
+    transform: scale(1.08);
+}
+
+.row_posterLarge {
+    max-height: 250px;
+}
+
+.row_posterLarge:hover {
+    transform: scale(1.09);
+    opacity: 1;
+}
