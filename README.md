@@ -10,7 +10,7 @@ A high-performance, responsive Netflix clone built with **Next.js 15**, **React 
 
 ## 🚀 Live Demo
 
-Check out the live application here: [Netflix Clone Demo](https://netflix-clone-4debc.web.app/)
+Check out the live application here: [Netflix Clone Demo](https://netflix-clone-plum-eta.vercel.app/)
 
 ---
 
