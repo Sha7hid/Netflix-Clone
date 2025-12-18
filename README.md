@@ -2,7 +2,7 @@
 
 [![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-19-blue?style=for-the-badge&logo=react)](https://reactjs.org/)
-[![Firebase](https://img.shields.io/badge/Firebase-Deployed-orange?style=for-the-badge&logo=firebase)](https://firebase.google.com/)
+[![Vercel](https://img.shields.io/badge/Vercel-Deployed-black?style=for-the-badge&logo=vercel)](https://vercel.com/)
 
 A high-performance, responsive Netflix clone built with **Next.js 15**, **React 19**, and the **TMDB API**. This project features dynamic movie rows, a stunning hero banner, and YouTube trailer playback integration.
 
@@ -39,7 +39,7 @@ Check out the live application here: [Netflix Clone Demo](https://netflix-clone-
 - **Styling**: Vanilla CSS (Custom project design)
 - **HTTP Client**: Axios
 - **Trailer Integration**: `react-youtube` & `movie-trailer`
-- **Deployment**: Firebase Hosting
+- **Deployment**: Vercel
 
 ---
 
@@ -72,12 +72,12 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## 📦 Deployment
 
-This project is configured for **Firebase Hosting**. To deploy your own version:
+This project is optimized for **Vercel**. To deploy:
 
-1. Install Firebase CLI: `npm install -g firebase-tools`
-2. Login: `firebase login`
-3. Initialize: `firebase init`
-4. Deploy: `npm run build && firebase deploy`
+1. Push your code to a GitHub repository.
+2. Import the project in [Vercel](https://vercel.com/new).
+3. Add your `NEXT_PUBLIC_TMDB_API_KEY` in the Vercel project environment variables.
+4. Click **Deploy**.
 
 ---
 
